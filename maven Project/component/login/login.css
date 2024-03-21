@@ -1,0 +1,69 @@
+.Login-container {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 90%;
+    width: 430px;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+    padding: 2rem;
+  }
+  
+  #rwiLogo {
+    max-width: 160px;
+    height: auto;
+    justify-content: center;
+    padding-left: 140px;
+    margin-top: -10%;
+  }
+  
+  input {
+    margin-top: 30px;
+    height: 60px;
+    width: 400px;
+    padding: 0 15px;
+    font-size: 17px;
+    margin-bottom: 1.3rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    outline: none;
+  }
+  
+  button {
+    margin-top: 30px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    height: 60px;
+    background-color: #041ee6;
+    font-size: 23px;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 50px;
+  }
+  
+  button:hover {
+    background-color: #0f07a9;
+  }
+  
+  .signup {
+    color: aliceblue;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    display: block;
+  }
+  
+  .signup label {
+    color: #007bff;
+    cursor: pointer;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .Login-container {
+      width: 90%;
+      max-width: 500px;
+    }
+  }

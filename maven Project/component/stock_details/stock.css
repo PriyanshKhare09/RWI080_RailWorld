@@ -1,0 +1,50 @@
+body{ background-color: #010715;}
+.h2-tag {
+    margin-top: 5%;
+    margin-left: 277px;
+    color: #ffff;
+  }
+  .img-style{
+    width : 30px;
+    height: 30px;
+  }
+.data-table {
+    position: absolute;
+    top: 15%; 
+    left: 15%; 
+    width: 78%; 
+    border-collapse: collapse;
+    border-radius: 10%;
+  }
+  
+  
+  .row-odd {
+    background-color: #2D2D2D;
+    color: #FFFFFF; }
+  
+  .row-even {
+    background-color: #262626;
+    color: #FFFFFF; 
+  }
+  
+  .data-table td {
+    border: 1px solid #444; 
+    padding: 10px;
+    color: #fff; 
+  }
+  
+  
+  .data-table th {
+    background-color: #111; 
+    color: #fff; 
+    border: 2px solid #444; 
+    padding: 10px;
+  }
+  
+  
+  .data-table tr:hover {
+    background-color: #333; 
+  }
+  .data-table td:hover {
+    background-color: #335; 
+  }
