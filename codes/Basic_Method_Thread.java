@@ -17,7 +17,7 @@ public class Basic_Method_Thread {
 		// TODO Auto-generated method stub
 		Test2 t2=new Test2();
 		t2.start();
-		//print Main thread name you can also can main thread method using SetNam
+		//print Main thread name you can also change main thread name method using SetNam
 		System.out.println(Thread.currentThread().getName());
 		//this method check thread is alive or not
 		System.out.println(t2.isAlive());
