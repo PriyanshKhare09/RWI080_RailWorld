@@ -13,7 +13,7 @@ public class Deamon_thread {
 		System.out.println("This is main thread");
 //		t1.setDaemon(true);
 		t1.start();
-//		t1.setDaemon(true); you can set Daemon threa after the start method invoke that's why you can set main thread as daemon 
+//		t1.setDaemon(true); Exception occure You can't set Daeamon thread after the start the thread.
 		
 		
 		
