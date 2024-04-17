@@ -41,9 +41,6 @@ public class hashSet {
 		
 		System.out.println("After adding one Set to another Set");
 		System.out.println(set);
-		
-		
-		
 
 	}
 
